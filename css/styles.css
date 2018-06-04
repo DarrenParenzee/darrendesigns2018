@@ -1,3 +1,44 @@
+/*Includes*/
+/*GLOBAL VARIABLES*/
+/*Colours*/
+/*Fonts*/
+/*INCLUDES*/
+/*GLOBAL VARIABLES*/
+/*Colours*/
+/*Fonts*/
+/*SCSS*/
+.nav-bg {
+  background-color: #4A535D;
+}
 
+nav a {
+  color: #fff;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+
+.btn-outline-white {
+  color: #fff;
+  background-color: transparent;
+  background-image: none;
+  border-color: #fff;
+}
+
+/*GLOBAL CLASSES*/
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: rgba(74, 83, 93, 0.8);
+  text-align: left;
+  background-color: #fff;
+}
+
+.white {
+  color: #fff;
+}
 
 /*# sourceMappingURL=file:///Volumes/Darren/DARREN%20DESIGNS/Self/website/NEW/Development/css/styles.css.map */
