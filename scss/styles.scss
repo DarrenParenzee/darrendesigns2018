@@ -1,6 +1,7 @@
 /*Includes*/
 @import '_variables.scss';
 @import '_header.scss';
+@import '_home.scss';
 
 
 /*GLOBAL CLASSES*/
@@ -8,13 +9,56 @@
 body {
 	font-family: $font-default;
 	margin: 0;
+  background-color: #fff;
+  color: $font-color-med;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: $font-color-med;
   text-align: left;
-  background-color: #fff;
+}
+h1, h2, h3,
+.h1, .h2, .h3, {
+  color: $dark-blue;
+  font-family: $font-heading;
+  font-weight: 500;
+  line-height: 1.2;
+  margin-bottom: 0.5rem;
+}
+
+h1, .h1 {
+  font-size: 4rem;
+}
+
+h2, .h2 {
+  font-size: 2.5rem;
+}
+
+h3, .h3 {
+  font-size: 1.75rem;
+}
+
+h4, .h4 {
+  font-size: 1.5rem;
+}
+
+h5, .h5 {
+  font-size: 1.25rem;
+}
+
+h6, .h6 {
+  font-size: 1rem;
 }
 .white {
 	color: $white;
+}
+.btn-primary {
+  color: $white;
+  background-color: $pink;
+  border-color: $pink;
+
+  :hover {
+  color: $white;
+  background-color: #FF3A69;
+  border-color: #FF3A69;
+	}
 }
