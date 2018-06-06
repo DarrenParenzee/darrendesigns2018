@@ -77,13 +77,18 @@
 .form-control:focus {
 	background-color: $blue;
 }
-
 .message-border {
 	border: 1px solid $white !important;
 	border-radius: 4px !important;
 	height: 267px;
 }
-
+.send-button {
+	width: 100%;
+	height: 50px;
+}
+.form-margin--last {
+	margin-bottom: 1em;
+}
 @keyframes float-labels {
     0% { opacity: 1; color: #aaa; top: 0.1em; font-size: 1.5em; }
     20% { font-size: 1.5em; opacity: 0; }

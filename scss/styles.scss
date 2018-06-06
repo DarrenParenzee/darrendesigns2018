@@ -3,6 +3,7 @@
 @import '_header.scss';
 @import '_home.scss';
 @import '_form.scss';
+@import '_footer.scss';
 
 
 /*GLOBAL CLASSES*/
@@ -22,7 +23,7 @@ h1, h2, h3,
   color: $dark-blue;
   font-family: $font-heading;
   font-weight: 500;
-  line-height: 1.2;
+  line-height: 1.3;
   margin-bottom: 0.5rem;
 }
 
@@ -67,6 +68,17 @@ a:not([href]):not([tabindex]):hover, a:not([href]):not([tabindex]):focus {
 
 a:not([href]):not([tabindex]):focus {
   outline: 0;
+}
+.btn-secondary {
+  color: #fff;
+  background-color: $pink;
+  border-color: $pink;
+}
+
+.btn-secondary:hover {
+  color: #fff;
+  background-color: #CA0F3B;
+  border-color: #CA0F3B;
 }
 .white {
 	color: $white;

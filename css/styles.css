@@ -230,6 +230,15 @@ nav a:hover {
   height: 267px;
 }
 
+.send-button {
+  width: 100%;
+  height: 50px;
+}
+
+.form-margin--last {
+  margin-bottom: 1em;
+}
+
 @keyframes float-labels {
   0% {
     opacity: 1;
@@ -322,6 +331,24 @@ nav a:hover {
     opacity: 1;
   }
 }
+/*Includes*/
+/*GLOBAL VARIABLES*/
+/*Colours*/
+/*Fonts*/
+/*Spacing*/
+/*ID's and Classes*/
+footer {
+  background-color: #4A535D;
+  color: #fff;
+  padding-top: 20px;
+}
+footer a {
+  color: #fff;
+}
+footer a:hover {
+  color: #FF2559;
+}
+
 /*GLOBAL CLASSES*/
 body {
   font-family: "Roboto", sans-serif;
@@ -339,7 +366,7 @@ h1, h2, h3,
   color: #4A535D;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
-  line-height: 1.2;
+  line-height: 1.3;
   margin-bottom: 0.5rem;
 }
 
@@ -385,6 +412,18 @@ a:not([href]):not([tabindex]):hover, a:not([href]):not([tabindex]):focus {
 
 a:not([href]):not([tabindex]):focus {
   outline: 0;
+}
+
+.btn-secondary {
+  color: #fff;
+  background-color: #FF2559;
+  border-color: #FF2559;
+}
+
+.btn-secondary:hover {
+  color: #fff;
+  background-color: #CA0F3B;
+  border-color: #CA0F3B;
 }
 
 .white {

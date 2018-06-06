@@ -1,0 +1,17 @@
+/*Includes*/
+@import '_variables.scss';
+
+/*ID's and Classes*/
+
+footer {
+	background-color: $dark-blue;
+	color: $white;
+	padding-top: $padding-xsmall*2;
+
+	a {
+		color: $white;
+	}
+	a:hover {
+		color: $pink;
+	}	
+}
