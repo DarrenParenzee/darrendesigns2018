@@ -33,7 +33,15 @@
 		box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
 	}
 }
+#my-focus {
+	padding-top: $padding-medium;
+
+	.my-focus--space {
+		padding-bottom: $padding-small;
+	}
+}
 .heading-focus--bgcolor {
 	background-color: $dark-blue;
 	padding: $padding-xxsmall 0;
+	margin-bottom: $margin-medium;
 }

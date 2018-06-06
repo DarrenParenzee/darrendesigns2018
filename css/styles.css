@@ -62,9 +62,17 @@ nav a:hover {
   box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
 }
 
+#my-focus {
+  padding-top: 60px;
+}
+#my-focus .my-focus--space {
+  padding-bottom: 40px;
+}
+
 .heading-focus--bgcolor {
   background-color: #4A535D;
   padding: 4px 0;
+  margin-bottom: 60px;
 }
 
 /*GLOBAL CLASSES*/
@@ -112,8 +120,32 @@ h6, .h6 {
   font-size: 1rem;
 }
 
+a {
+  color: #FF2559;
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+
+a:not([href]):not([tabindex]) {
+  text-decoration: none;
+}
+
+a:not([href]):not([tabindex]):hover, a:not([href]):not([tabindex]):focus {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:not([href]):not([tabindex]):focus {
+  outline: 0;
+}
+
 .white {
   color: #fff;
+}
+
+.bg-color-primary {
+  background-color: #4A535D;
 }
 
 .btn-primary {
@@ -125,6 +157,10 @@ h6, .h6 {
   color: #fff;
   background-color: #FF3A69;
   border-color: #FF3A69;
+}
+
+.font-special-rslab {
+  font-family: "Roboto Slab", serif;
 }
 
 /*# sourceMappingURL=file:///Volumes/Darren/DARREN%20DESIGNS/Self/website/NEW/Development/css/styles.css.map */
