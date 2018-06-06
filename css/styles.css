@@ -75,6 +75,18 @@ nav a:hover {
   margin-bottom: 60px;
 }
 
+#brands .btn-outline-secondary {
+  color: #6c757d;
+  background-color: transparent;
+  background-image: none;
+  border-color: #6c757d;
+}
+#brands .btn-outline-secondary:hover {
+  color: #fff;
+  background-color: #FF2559;
+  border-color: #FF2559;
+}
+
 /*GLOBAL CLASSES*/
 body {
   font-family: "Roboto", sans-serif;

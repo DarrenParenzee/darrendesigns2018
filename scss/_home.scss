@@ -45,3 +45,17 @@
 	padding: $padding-xxsmall 0;
 	margin-bottom: $margin-medium;
 }
+#brands {
+	.btn-outline-secondary {
+	  color: #6c757d;
+	  background-color: transparent;
+	  background-image: none;
+	  border-color: #6c757d;
+	}
+	.btn-outline-secondary:hover {
+		color: $white;
+		background-color: $pink;
+		border-color: $pink;
+	}
+
+}
