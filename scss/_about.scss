@@ -1,0 +1,30 @@
+/*Includes*/
+@import '_variables.scss';
+
+#about-hero {
+	.jumbotron {
+		background-color: $dark-blue;
+
+		h1 {
+			margin: $margin-large 0 $margin-small 0;
+		}
+
+		a {
+			margin-bottom: $margin-medium;
+		}
+	}
+}
+#about-skills {
+	padding: $padding-medium 0;
+	
+	img {
+		width: 163px;
+	}
+	.puzzle-line {
+		background-color: $dark-blue;
+	}
+	h3 {
+		text-transform: uppercase;
+		padding-bottom: $padding-xsmall;
+	}
+}
