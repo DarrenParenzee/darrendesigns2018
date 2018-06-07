@@ -1,7 +1,7 @@
 /*INCLUDES*/
 @import '_variables.scss';
 
-.home-hero-bg {
+.home-hero--bg {
 	background-image: url("../img/home-hero.png");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -34,6 +34,9 @@
 	a:hover {
 		color: $white !important;
 		box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
+	}
+	.modal-content {
+		background-color: #000;
 	}
 }
 #my-focus {

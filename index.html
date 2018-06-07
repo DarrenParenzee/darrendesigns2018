@@ -35,14 +35,32 @@
     </div>
 
     <!-- Hero: Introduction -->
-    <section>
-      <div class="jumbotron home-hero-bg">
+    <section id="home-hero">
+      <div class="jumbotron home-hero--bg">
         <div class="container">
           <h1 class="text-center"><span class="text-bg-color--light">Hi. I’m Darren, a digital creative in Cape Town, South Africa.</span></h1>
           <h3 class="text-center white text-bg-color--dark">Lets create meaningful products that has a positive impact on the world.</h3>
         </div>
         <div class="text-center">
-          <button class="btn btn-primary shadow btn-lg" href="#" data-toggle="modal"><img src="img/play-btn.svg"> Watch Video</button>
+          <button type="button" class="btn btn-primary shadow btn-lg" data-toggle="modal" data-target="#myModal"><img src="img/play-btn.svg"> Watch Video</button>
+          <!-- The Modal -->
+          <div class="modal" id="myModal">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                  <h4 class="modal-title white">Darren Parenzee</h4>
+                  <button type="button" class="btn btn-danger" data-dismiss="modal">X</button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                  <iframe width="100%" height="480" src="https://www.youtube.com/embed/CttGNGjwp6A" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                </div>
+              </div>
+            </div>
+          </div> <!-- END: The Modal -->
         </div>
       </div>
     </section>
@@ -236,14 +254,15 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script>window.jQuery || document.write('<script src="js/vendor/jquery-slim.min.js"><\/script>')</script>
     <!-- <script src="js/vendor/popper.min.js"></script> -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.js"></script>
     <script src="js/form.js"></script>
-    <script>
+    <script src="js/modal.js"></script>
+<!--     <script>
       Holder.addTheme('thumb', {
         bg: '#55595c',
         fg: '#eceeef',
         text: 'Thumbnail'
       });
-    </script>
+    </script> -->
   </body>
 </html>
