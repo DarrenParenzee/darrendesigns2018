@@ -10,12 +10,35 @@
 /*Spacing*/
 #about-hero .jumbotron {
   background-color: #4A535D;
+  position: relative;
 }
 #about-hero .jumbotron h1 {
   margin: 130px 0 40px 0;
 }
 #about-hero .jumbotron a {
   margin-bottom: 60px;
+  position: relative;
+  z-index: 10;
+}
+#about-hero .container {
+  position: relative;
+  z-index: 10;
+}
+#about-hero .fullscreen-bg {
+  position: relative;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+}
+#about-hero .fullscreen-bg .fullscreen-bg--video {
+  bottom: 30px;
+  left: 0;
+  opacity: 0.3;
+  position: absolute;
+  top: 0;
+  width: 100%;
 }
 
 #about-skills {
@@ -24,8 +47,17 @@
 #about-skills img {
   width: 163px;
 }
-#about-skills .puzzle-line {
+#about-skills .productmanagement-line {
   background-color: #4A535D;
+}
+#about-skills .uidesign-line {
+  background-color: #FF2559;
+}
+#about-skills .frontend-line {
+  background-color: #FFC325;
+}
+#about-skills .education-line {
+  background-color: #25B0FF;
 }
 #about-skills h3 {
   text-transform: uppercase;
@@ -280,6 +312,37 @@ footer a:hover {
     opacity: 1;
   }
 }
+#work-together-form {
+  margin: 60px 0;
+}
+#work-together-form .float-label-control label {
+  color: #4A535D;
+}
+#work-together-form .form-control:focus {
+  background-color: #fff;
+}
+#work-together-form .float-label-control input {
+  border-bottom: 1px solid #4A535D;
+}
+#work-together-form .float-label-control input:focus {
+  border-bottom: 1px solid #25B0FF;
+}
+#work-together-form .form-margin--last {
+  border: 1px #4A535D solid;
+  border-radius: 4px;
+}
+#work-together-form .work-together-menu {
+  display: inline-flex;
+  margin: 10px 0 40px 0;
+}
+#work-together-form .work-together-menu li {
+  list-style: none;
+  padding: 0 20px;
+}
+#work-together-form .work-together-menu li:hover {
+  text-decoration: underline;
+}
+
 /*INCLUDES*/
 /*GLOBAL VARIABLES*/
 /*Colours*/
@@ -379,6 +442,38 @@ nav a:hover {
 #home-contact {
   background-color: #25B0FF;
   padding: 60px 0;
+}
+
+/*Includes*/
+/*GLOBAL VARIABLES*/
+/*Colours*/
+/*Fonts*/
+/*Spacing*/
+#blog-hero .jumbotron {
+  background-color: #4A535D;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+#blog-hero .jumbotron h1 {
+  top: 50%;
+}
+
+.footer-bottom-fixed {
+  position: fixed;
+  border-top: white 1px solid;
+  bottom: 0;
+  width: 100%;
+}
+
+/*Includes*/
+/*GLOBAL VARIABLES*/
+/*Colours*/
+/*Fonts*/
+/*Spacing*/
+#work-togher-hero .jumbotron {
+  background-color: #4A535D;
+  padding: 130px 0;
 }
 
 /*GLOBAL CLASSES*/

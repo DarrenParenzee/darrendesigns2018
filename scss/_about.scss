@@ -4,6 +4,7 @@
 #about-hero {
 	.jumbotron {
 		background-color: $dark-blue;
+		position: relative;
 
 		h1 {
 			margin: $margin-large 0 $margin-small 0;
@@ -11,18 +12,50 @@
 
 		a {
 			margin-bottom: $margin-medium;
+			position: relative;
+			z-index: 10;
+		}
+	}
+	.container {
+		position: relative;
+		z-index: 10;
+	}
+	.fullscreen-bg {
+		position: relative;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+
+    .fullscreen-bg--video {
+	    bottom: 30px;
+	    left: 0;
+	    opacity: 0.3;
+	    position: absolute;
+	    top: 0;
+	    width: 100%;
 		}
 	}
 }
 #about-skills {
 	padding: $padding-medium 0;
-	
+
 	img {
 		width: 163px;
 	}
-	.puzzle-line {
+	.productmanagement-line {
 		background-color: $dark-blue;
 	}
+	.uidesign-line {
+		background-color: $pink;
+	}
+	.frontend-line {
+		background-color: #FFC325;
+	}
+	.education-line {
+		background-color: $blue;
+	}	
 	h3 {
 		text-transform: uppercase;
 		padding-bottom: $padding-xsmall;

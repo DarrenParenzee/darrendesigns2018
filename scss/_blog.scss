@@ -1,0 +1,21 @@
+/*Includes*/
+@import '_variables.scss';
+
+#blog-hero {
+	.jumbotron {
+		background-color: $dark-blue;
+		height: 100%;
+	  position: absolute;
+	  width: 100%;
+
+	  h1 {
+	  	top: 50%;
+	  }		
+	}
+}
+.footer-bottom-fixed {
+	position: fixed;
+  border-top: white 1px solid;
+  bottom: 0;
+  width: 100%;
+}

@@ -120,3 +120,38 @@
     50% { opacity: 0; font-size: 0.85em; }
     100% { top: 3em; opacity: 1; }
 }
+
+#work-together-form {
+  margin: $margin-medium 0;
+    .float-label-control {
+        label {
+            color: $dark-blue;
+        }
+    }
+
+    .form-control:focus {
+      background-color: $white;
+    }
+    .float-label-control input {
+      border-bottom: 1px solid $dark-blue;
+    }
+    .float-label-control input:focus {
+      border-bottom: 1px solid $blue;
+    }    
+    .form-margin--last {
+        border: 1px $dark-blue solid;
+        border-radius: 4px;
+    }
+    .work-together-menu {
+        display: inline-flex;
+        margin: $margin-xsmall 0 $margin-small 0;
+
+        li {
+            list-style: none;
+            padding: 0 $padding-xsmall+10px;
+        }
+        li:hover {
+            text-decoration: underline;
+        }
+    }
+}
